@@ -70,7 +70,6 @@ This version of MedTrack introduces a more thoughtful, human-first approach to m
 - Personalized using user profile data
 - Includes clear medical disclaimers
 - No diagnosis or emergency advice
-- 
 ---
 
 ## 🛠 Tech Stack
