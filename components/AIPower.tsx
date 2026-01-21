@@ -23,7 +23,7 @@ export const AIPower: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <AICard 
             icon={<AIChatIcon />}
-            title="AI Chatbot"
+            title="CareMate AI Chatbot"
             desc="Ask about medicines anytime — no Googling. Friendly, fast, and clear."
           />
           <AICard 

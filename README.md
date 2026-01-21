@@ -1,82 +1,20 @@
-# 🩺 MedTrack
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-**MedTrack** is a family-centered medication management web application designed to help people take medicines on time — together with their family.  
-This is the **new and improved version of MedTrack**, focused on calm design, safety, and shared responsibility, without feeling clinical or overwhelming.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🌱 What’s New in This Version
+View your app in AI Studio: https://ai.studio/apps/drive/1WxWLhcFjrAQTRApPQ7UhusXASvsWyPdv
 
-This version of MedTrack introduces a more thoughtful, human-first approach to medication tracking:
+## Run Locally
 
-- Family-based **Hub system** instead of individual-only tracking  
-- Approval-based hub joining for **better safety**
-- Calm, non-hospital UI with friendly visuals
-- Smart features that reduce effort while keeping users in control
+**Prerequisites:**  Node.js
 
----
 
-## ✨ Key Features
-
-### 👨‍👩‍👧 Family Hub System
-- Create or join a **Family Hub**
-- Share a unique hub code
-- Hub creator approves join requests before access is granted
-- Clear **Creator** and **Member** roles
-
----
-
-### 💊 Medication Management
-- Add medication cards with:
-  - Medicine name
-  - Dosage
-  - Time to take
-  - Assigned family member
-  - Optional remarks
-  - Optional image upload
-- Mark medications as **Taken**
-- Daily reset of medication status at **12:00 AM**
-- Only the creator of a medication card can **edit or delete** it
-
----
-
-### ⏰ Smart Reminders & Notifications
-- Notification when it’s exactly time to take medicine
-- Gentle reminder after 5 minutes if missed
-- Family members are notified after 10 minutes if still not taken
-- Missed doses are tagged clearly but calmly
-
----
-
-### 🕰 Location-Aware Digital Clock
-- Displays local time based on user location
-- Helps align medication timing accurately
-- Privacy-first fallback to device time if location access is denied
-
----
-
-### 🎙 Smart Voice Memo (Optional)
-- Add medications using voice
-- Converts speech into a medication card draft
-- Powered by **Gemini**
-- User always reviews and confirms before saving
-- Clear microphone permission handling
-
----
-
-### 🤖 CareMate Chatbot
-- Built using **Gemini**
-- Answers general medication-related questions
-- Personalized using user profile data
-- Includes clear medical disclaimers
-- No diagnosis or emergency advice
----
-
-## 🛠 Tech Stack
-
-- **Frontend:** HTML, CSS, JavaScript  
-- **Design & Prototyping:** Google AI Studio  
-- **AI & NLP:** Google Gemini  
-- **Authentication:** Email-based authentication with verification  
-- **Notifications:** Time-based logic (client/server driven)  
-- **Voice Processing:** Browser Speech APIs + Gemini  
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

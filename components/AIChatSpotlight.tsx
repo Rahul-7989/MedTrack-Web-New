@@ -6,7 +6,7 @@ export const AIChatSpotlight: React.FC = () => {
   return (
     <section className="py-20 px-6 md:px-12 max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
       <div className="space-y-6">
-        <h2 className="text-4xl font-bold text-[#2E2A4A]">Meet your MedTrack AI — your quiet helper.</h2>
+        <h2 className="text-4xl font-bold text-[#2E2A4A]">Meet your MedTrack AI — CareMate : your quiet helper.</h2>
         <div className="space-y-4">
           <div className="bg-[#EFEAE3] p-4 rounded-2xl border-l-4 border-[#4FA3B1] shadow-sm italic text-[#2E2A4A]">
             “What happens if I miss this dose?”
